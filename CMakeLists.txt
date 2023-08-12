@@ -1,0 +1,3 @@
+add_library(ricab_scope_guard INTERFACE)
+target_include_directories(ricab_scope_guard INTERFACE include/)
+add_library(ricab::scope_guard ALIAS ricab_scope_guard)
